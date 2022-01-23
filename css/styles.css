@@ -2,8 +2,90 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box ;
+  font-family: Poppins, sans-serif;
+}
+body{
+  background-color: #071a52;
+  background-image: linear-gradient(62deg, #071a52 0%, #086972 50%, #071a52 100%);
 }
 
+.Container{
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
 
-/* Please comment on the functionlity of code */
+.table{
+  width: 32%;
+  height: 500px;
+  margin: 3px;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px rgb(167, 255, 131);
+  padding: 100px;
+  text-align: center;
+  flex-grow: 1;
+  color: #17B978;    
+}
+
+h2{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 150%;
+  margin: bottom 35px;
+}
+
+img{
+  visibility: hidden;
+  
+}
+
+p{
+  
+  margin-bottom: 20px;
+}
+
+.button{
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(167, 255, 131);
+  text-decoration: none;
+  color: rgb(7, 26, 82);
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: auto;
+}
+
+.table:hover{
+  background-color: #17b978;
+  background-image: linear-gradient(43deg, #17b978 0%, #a7ff83 50%, #17b978 100%);
+  color:#071a52;
+  transition: .5s all;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.table:hover img{
+  visibility: visible;
+  margin-top: 8%;
+  width: 90%;
+  height: 90%;
+  transition: .5s;
+  max-width: 200px;
+  max-height: 250px;
+  
+}
+
+.table:hover .button{
+  background-color: rgb(7, 26, 82);
+  transition: .5s;
+  color: rgb(167, 255, 131);
+}
 
