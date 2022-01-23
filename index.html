@@ -1,40 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>landingpage</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="containerheader">
-        <div id="particles-js"></div>
-        <div class="containMain containerM">
-            <div class="item">
-                <h1 class="textlanding">
-                    DarthCode development & design
-                </h1>
-                <h2>En DarthCode te ofrecemos lo mejor para tu negocio </h2>
-                <h2>y emprendimiento tenemos el mejor equipo a tu disposición.</h2>
-                <button> CONÓCENOS!
-                </button>
+      <div id="particles-js"></div>
+      <div class="containMain containerM">
+        <div class="item">
+          <h1 class="textlanding">DarthCode development & design</h1>
+          <h2>En DarthCode te ofrecemos lo mejor para tu negocio</h2>
+          <h2>y emprendimiento tenemos el mejor equipo a tu disposición.</h2>
+          <button>CONÓCENOS!</button>
+        </div>
+        <div class="item">
+          <img
+            src="imageneslanding/bothimg.png"
+            alt="imagenLand"
+            class="imagenLand"
+          />
+        </div>
+      </div>
+    </div>
+    <section id="Team" >
+            <div class="ourTeam">
+            <h1 class="textOurTeam">Nuestro equipo</h1>
+            <div class="containerTeam">
+            <div class="cardT">
+            <div class="contentCards">
+                <h3>01</h3>
+                <img src="logo/darthcodeNeon.png" alt="darthCodeNeon" class="logoCard">
+                <h4>Erick Gonzalez</h4>
+                <p>
+                lider
+                industry.
+                </p>
+                
             </div>
-            <div class="item">
-                <img src="imageneslanding/bothimg.png" alt="imagenLand" class="imagenLand">
-               
             </div>
         </div>
-    </div>
+        <div class="containerTeam">
+            <div class="cardT">
+            <div class="contentCards">
+                <h3>02</h3>
+                <img src="logo/darthcodeNeon.png" alt="darthCodeNeon" class="logoCard">
+                <h4>Alejandro Gaviria</h4>
+                <p>
+                Scrum
+                </p>
+                
+            </div>
+            </div>
+        </div>
+        <div class="containerTeam">
+            <div class="cardT">
+            <div class="contentCards">
+                <h3>03</h3>
+                <img src="logo/darthcodeNeon.png" alt="darthCodeNeon" class="logoCard">
+                <h4>Laura Quimbaya</h4>
+                <p>
+                developer Team
+                </p>
+                
+            </div>
+            </div>
+        </div>
+        <div class="containerTeam">
+            <div class="cardT">
+            <div class="contentCards">
+                <h3>04</h3>
+                <img src="logo/darthcodeNeon.png" alt="darthCodeNeon" class="logoCard">
+                <h4>Michael Manrique</h4>
+                <p>
+                developer team
+                </p>
+                
+            </div>
+            </div>
+        </div>
+        <div class="containerTeam">
+            <div class="cardT">
+            <div class="contentCards">
+                <h3>05</h3>
+                <img src="logo/darthcodeNeon.png" alt="darthCodeNeon" class="logoCard">
+                <h4>Camilo Chaparro</h4>
+                <p>
+                developer Team
+                </p>
+                
+            </div>
+            </div>
+        </div>
+        </div>
+       
+    </section>
    
 
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="./js/particle.js"></script>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".cardT"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 1
 
 
-
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
-    <script src="js/particle.js"></script>
-</body>
-
+	});
+    </script>
+  </body>
 </html>
