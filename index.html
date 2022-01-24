@@ -1,17 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/styles.css">
+  <!-- Icons of Font Awesome -->
+  <script defer src="./node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+  <script defer src="./node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+  <script defer src="./node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
   <title>DarthCode</title>
 </head>
+
 <body>
 
-<!-- Please comment on the functionlity of code -->
+  <!-- Please comment on the functionlity of code -->
 
-  
+  <div class="container">
+    <h1 class="logo">Contactanos</h1>
+    <!-- Form of Contact -->
+    <div class="formContent">
+      <div class="contact-form">
+        <h3>Contacto</h3>
+        <form action="#">
+          <p>
+            <label>Nombre</label>
+            <input type="text" name="nameUser" id="nameU">
+          </p>
+
+          <p>
+            <label>Nombre De Empresa</label>
+            <input type="text" name="nameEnterprise" id="nameEnt">
+          </p>
+
+          <p>
+            <label>Correo Electrónico</label>
+            <input type="email" name="mailUser" id="mailU">
+          </p>
+
+          <p>
+            <label>Télefono</label>
+            <input type="tel" name="phoneUser" id="phoneU">
+          </p>
+
+          <label>Mensaje</label>
+          <textarea name="messageA" id="message" rows="3"></textarea>
+        </form>
+      
+      </div>
+    </div>
+<!-- More Contact Information -->
+    <div class="contact-info">
+      <h4>Más Información</h4>
+      <ul>
+        <li><i class="fas fa-map-marker-alt"></i>Bogotá D.C | BIT</li>
+        <li><i class="fas fa-phone-square-alt"></i>789 4545</li>
+        <li><i class="fas fa-envelope"></i>atencionUsuarios@DarthCode.com.co</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat optio necessitatibus quaerat molestias minima minus ea fuga ipsam repellat.</p>
+      <p>www.DarthCode.com.co</p>
+    </div>
+
+  </div>
+
+
   <script src="./js/index.js"></script>
 </body>
+
 </html>
