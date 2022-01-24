@@ -4,29 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>landingpage</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>landingpage</title>   
+    <link rel="stylesheet" href="css/myLanding.css" />
+    <link rel="stylesheet" href="css/navBar.css">
   </head>
-
   <body>
-    <div class="containerheader">
-      <div id="particles-js"></div>
-      <div class="containMain containerM">
-        <div class="item">
-          <h1 class="textlanding">DarthCode development & design</h1>
-          <h2>En DarthCode te ofrecemos lo mejor para tu negocio</h2>
-          <h2>y emprendimiento tenemos el mejor equipo a tu disposición.</h2>
-          <button>CONÓCENOS!</button>
+    <header>     
+      <div class="containerheader">      
+        <div id="particles-js"></div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">DarthCode</a></li>
+            <li><a href="#">portafolio</a></li>
+            <li><a href="#">servicios</a></li>
+            <li><a href="#Team">team</a></li>      
+            <div id="marker"></div>    
+      
+          </ul>
+          <img src="Logo/darthcodeNeon.png" alt="logosinfondo" class="navLogo">
+          <button  class="navButton"  style="float:right">login</button>
+      
+        </nav>     
+        <div class="containMain containerM">
+          <div class="item">
+            <h1 class="textlanding">DarthCode development & design</h1>
+            <h2>En DarthCode te ofrecemos lo mejor para tu negocio</h2>
+            <h2>y emprendimiento tenemos el mejor equipo a tu disposición.</h2>
+            <button>CONÓCENOS!</button>
+          </div>
+          <div class="item">
+            <img
+              src="imageneslanding/bothimg.png"
+              alt="imagenLand"
+              class="imagenLand"
+            />
+          </div>
         </div>
-        <div class="item">
-          <img
-            src="imageneslanding/bothimg.png"
-            alt="imagenLand"
-            class="imagenLand"
-          />
-        </div>
-      </div>
-    </div>
+      </div>    
+    </header>
+    
     <section id="Team" >
             <div class="ourTeam">
             <h1 class="textOurTeam">Nuestro equipo</h1>
@@ -40,7 +57,6 @@
                 lider
                 industry.
                 </p>
-                
             </div>
             </div>
         </div>
@@ -53,7 +69,6 @@
                 <p>
                 Scrum
                 </p>
-                
             </div>
             </div>
         </div>
@@ -66,7 +81,6 @@
                 <p>
                 developer Team
                 </p>
-                
             </div>
             </div>
         </div>
@@ -79,7 +93,6 @@
                 <p>
                 developer team
                 </p>
-                
             </div>
             </div>
         </div>
@@ -92,18 +105,15 @@
                 <p>
                 developer Team
                 </p>
-                
             </div>
             </div>
         </div>
-        </div>
-       
-    </section>
-   
-
+        </div>       
+    </section>    
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <!-- stats.js lib -->
     <script src="./js/particle.js"></script>
+    <script src="js/navBar.js"></script>
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script>
         VanillaTilt.init(document.querySelectorAll(".cardT"), {
@@ -111,8 +121,6 @@
 		speed: 400,
         glare: true,
         "max-glare": 1
-
-
 	});
     </script>
   </body>
