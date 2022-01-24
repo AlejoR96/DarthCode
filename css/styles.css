@@ -1,9 +1,114 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box ;
+  box-sizing: border-box;
+
 }
 
+body {
+  background-color: #071a52;
+  background-image: linear-gradient(62deg, #071a52 0%, #086972 50%, #071a52 100%);
+  display: block;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-/* Please comment on the functionlity of code */
+.img {
+  width: 25rem;
+  margin-top: -30rem;
+  float: right;
+}
 
+.form-login {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.794), rgba(255, 255, 255, 0));
+  opacity: 50%;
+  width: 400px;
+  height: 340px;
+  margin: auto;
+  margin-top: 180px;
+  box-shadow: 7px 13px 37px;
+  padding: 20px 30px;
+  border: 1px solid #1BFD9C;
+  border-top: 4px solid #1BFD9C;
+
+}
+
+.form-login h5 {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  color: white;
+  border-bottom: 1px solid #1BFD9C;
+  font-size: 150%;
+}
+
+.form-login p {
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid #1BFD9C;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-login a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.form-login a:hover {
+  color: black;
+}
+
+button {
+  width: 100%;
+  margin-bottom: 16px;
+  --green: #1BFD9C;
+  font-size: 15px;
+  padding: 0.7em 2.7em;
+  letter-spacing: 0.06em;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 0.6em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%, transparent 60%, rgba(27, 253, 156, 0.1) 100%);
+  color: var(--green);
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+}
+
+button:hover {
+  color: #82ffc9;
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform .7s ease-in-out;
+  background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%, rgba(27, 253, 156, 0.1) 60%, transparent 100%);
+}
+
+button:hover:before {
+  transform: translateX(30em);
+}
+
+.controls {
+  width: 100%;
+  border-bottom: 1px solid #82ffc9;
+  margin-bottom: 15px;
+  padding: 11px 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
