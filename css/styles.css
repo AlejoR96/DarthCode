@@ -4,6 +4,10 @@
   box-sizing: border-box ;
 }
 
-
 /* Please comment on the functionlity of code */
 
+/* font used - Poppins Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
