@@ -1,6 +1,6 @@
 *{
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box ;
 }
 
@@ -10,4 +10,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
   font-family: 'Poppins', sans-serif;
+  background: #071A52;
+  color: white;
+  padding: 0 1.5em;
+}
+
+.content{
+  max-width:1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.logo{
+  text-align: center;
+  font-size: 3em;
+}
+
+.contact-wrapper{
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form{
+ background:#086972 ;
+}
+
+.contact-form form{
+ 
+  margin:0;
+  padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #071A52;
+}
+  
+
+
+
+.contact-info{
+  background: #A7FF83;
+  color:black;
 }
